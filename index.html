@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icons/favicon.ico">
+    <title>MyProfile</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link href=”https://use.fontawesome.com/releases/v6.0.0/css/all.css” rel=”stylesheet”>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header id="top">
+        <nav>
+            <ul>
+                <li><a href="#mypr">Profile</a></li>
+                <li><a href="#hobby">Hobby</a></li>
+                <li><a href="#holiday">Holiday</a></li>
+                <li><a href="#goal">Goal</a></li>
+            </ul>
+        </nav>
+        <h1><span class="sp-live">自由に生きて</span>・<span class="sp-work">働いて</span>・<span class="sp-trip">旅をして！！</span></h1>
+        <div class="header"></div>
+    </header>
+
+
+
+    <main>
+        <section id="mypr">
+            <h2>Profile</h2>
+            <div class="mypr-content container">
+                <div class="mypr-left">
+                    <img src="./images/myimg1.jpg" class="mypr-img1" alt="私の画像1です">
+                    <img src="./images/myimg2.jpg" class="mypr-img2" alt="私の画像2です">
+                </div>
+                <div class="mypr-right">
+                    <h3>村田大輝（仮）</h3>
+                    <p class="first circle">性格</p>
+                    <p class="second">***長所***<br>
+                        素直、真面目、継続力<br><br>
+                        ***短所***<br>
+                        気分屋</p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="haikei1">
+            <!-- <div class="haikei-img1">
+                <img src="./images/haikei1.jpg" class="img1" alt="区切り画像1です">
+                <img src="./images/haikei2.jpg" class="img2" alt="区切り画像2です">
+            </div> -->
+        </div>
+
+
+        <section id="hobby">
+            <h2>Hobby</h2>
+            <div class="hobby-content container">
+                <div class="hobby-box">
+                    <h3 class="crayon-orange-wide">珈琲</h3>
+                    <img src="./images/coffee.jpg" alt="珈琲の画像です。">
+                    <p>珈琲が好きです。 <br>
+                        仕事の前に一杯飲んだり、 <br>
+                        休みの日やリラックスしたい時に <br>
+                        よく飲みます!</p>
+                </div>
+                <div class="hobby-box box2">
+                    <h3 class="crayon-orange-wide">旅</h3>
+                    <img src="./images/trip.jpg" alt="旅の画像です。">
+                    <p>旅が好きです。 <br>
+                        長い休みがあると必ず旅行します!<br>
+                        海外も日本も好きです!</p>
+                </div>
+                <div class="hobby-box">
+                    <h3 class="crayon-orange-wide">アニメ</h3>
+                    <img src="./images/anime.jpg" alt="アニメの画像です。">
+                    <p>アニメが好きです。<br>
+                        特にONEPIECEが好きです!<br>
+                        そして、ゲームもよくします!</p>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="haikei2">
+            <!-- カードの列を作成  -->
+            <div class="carousel basic">
+                <div class="group">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+                /* カードを複製 */
+                <!-- 複製されたカードをスクリーンリーダーから隠すために `aria-hidden` を追加します。 -->
+                <div aria-hidden class="group">
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                    <div class="card"></div>
+                </div>
+            </div>
+
+            <div class="css-carousel-slider3">
+                <div class="slide-wrap-main">
+                    <div class="slide"><img src="../images/haikei2_1.jpg" alt=""></div>
+                </div>
+                <div class="slide-wrap">
+                    <div class="slide"><img src="../images/haikei2_1.jpg" alt=""></div>
+                    <div class="slide"><img src="../images/haikei2_2.jpg" alt=""></div>
+                    <div class="slide"><img src="../images/haikei2_3.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+
+        <section id="holiday">
+            <div class="holiday-content container">
+                <h2>Holiday</h2>
+                <h4>➖長期休暇➖</h4>
+                <div class="holiday-left"><!--longとshortは同じですが、分けてます-->
+                    <img src="./images/abroad.jpg" class="img-left" alt="海外の画像です。">
+                    <div class="holi-cont">
+                        <h3 class="crayon-orange-wide">abroad</h3>
+                        <p class="box1 p-left">海外によく行きます。<br>
+                            東南アジア・オセアニア・ヨーロッパの国々に <br>
+                            行ったことがあります! <br>
+                            アジア圏は旅感が強く刺激がありますし、<br>
+                            オーストラリアは海も綺麗で気候も穏やかで快適です。<br>
+                            ヨーロッパは安定に街並みが素敵でした！！！
+                        </p>
+                    </div>
+                </div>
+                <div class="holiday-right"><!--longとshortは同じですが、分けてます-->
+                    <div class="sp-right"><img src="./images/outdoor.jpg" class="img-right " alt="アウトドアな画像です。"></div>
+                    <div class="holi-cont">
+                        <h3 class="crayon-orange-wide">outdoor</h3>
+                        <p class="box1 p-right">キャンプをよくします。<br>
+                            アウトドアなことが好きで <br>
+                            一年中季節を楽しんでいます! <br>
+                            自転車やバイクで離島を旅したり、野宿したり<br>
+                            無人島に行ったり、ヒッチハイクなど<br>
+                            学生時代は色々挑戦しました！！
+                        </p>
+                    </div>
+                </div>
+
+                <h4>➖日常➖</h4>
+                <div class="holiday-left"><!--longとshortは同じですが、分けてます-->
+                    <img src="./images/gim.jpg" class="img-left" alt="ジムの画像です。">
+                    <div class="holi-cont">
+                        <h3 class="crayon-orange-wide">gim</h3>
+                        <p class="box1 p-left">しご終わジムです。<br>
+                            週５で仕事終わりに毎日ジムで鍛えています! <br>
+                            現在7ヶ月続いていて、もう少し筋肉を鍛えたい！<br>
+                            健康の為や外的にも自信をつける為です？！
+                        </p>
+                    </div>
+                </div>
+                <div class="holiday-right"><!--longとshortは同じですが、分けてます-->
+                    <div class="sp-right"><img src="./images/shop.jpg" class="img-right" alt="買い物の画像です。"></div>
+                    <div class="holi-cont">
+                        <h3 class="crayon-orange-wide">shopping</h3>
+                        <p class="box1 p-right">安くてお得なモノが好きです。<br>
+                            高くて良いものや高くて美味しいものには <br>
+                            あまり興味がありません（笑） <br>
+                            安くて良いものにもこの世の中には沢山あります！<br>
+                            些細な事でも幸せを感じて生きたいです（笑）
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="haikei3">
+            <div class="haikei-img3">
+                <img src="./images/haikei3_1.jpg" class="img3" alt="区切り画像1です">
+                <img src="./images/haikei3_2.jpg" class="img4" alt="区切り画像2です">
+            </div>
+        </div>
+
+
+        <section id="goal">
+            <h2>Goal</h2>
+            <div class="goal-content container">
+                <p class="goal">➖いつか大切な人と自由に旅をしたい！➖</p>
+                <div class="japan">
+                    <img src="./images/japan.jpg" class="fuwafuwa1" class="fuwafuwa" alt="日本の画像です。">
+                    <div class="countly-cont">
+                        <h3 class="crayon-orange-wide">japan</h3>
+                        <p>風情のある場所に行きたい。<br>
+                            日本の由々しき伝統的な場所が好きです!</p>
+                        <div class="goal-img">
+                            <img src="./images/japan2.jpg" class="fuwafuwa2" alt="日本の画像2です。">
+                            <img src="./images/japan3.jpg" class="fuwafuwa3" alt="日本の画像3です。">
+                        </div>
+                    </div>
+                </div>
+                <div class="america">
+                    <img src="./images/america.jpg" class="fuwafuwa2" alt="アメリカの画像です。">
+                    <div class="countly-cont">
+                        <h3 class="crayon-orange-wide">america</h3>
+                        <p>キャンピングカーで横断したい。<br>
+                            広大なアメリカの地を旅したいです!</p>
+                        <div class="goal-img">
+                            <img src="./images/america2.jpg" class="fuwafuwa4" alt="アメリカの画像2です。">
+                            <img src="./images/america3.jpg" class="fuwafuwa1" alt="アメリカの画像3です。">
+                        </div>
+                    </div>
+                </div>
+                <div class="europe">
+                    <img src="./images/europe.jpg" class="fuwafuwa3" alt="ヨーロッパの画像です。">
+                    <div class="countly-cont">
+                        <h3 class="crayon-orange-wide">europe</h3>
+                        <p>ヨーロッパを周遊したい。<br>
+                            有名な西側はもちろん<br>
+                            馴染みのない東側にも行きたい!</p>
+                        <div class="goal-img">
+                            <img src="./images/europe2.jpg" class="fuwafuwa2" alt="ヨーロッパの画像2です。">
+                            <img src="./images/europe3.jpg" class="fuwafuwa1" alt="ヨーロッパの画像3です。">
+                        </div>
+                    </div>
+                </div>
+                <div class="latin">
+                    <img src="./images/latin.jpg" class="fuwafuwa4" alt="中南米の画像です。">
+                    <div class="countly-cont">
+                        <h3 class="crayon-orange-wide">latin america</h3>
+                        <p>未知の国へ行きたい。<br>
+                            日本の反対側を旅したい!</p>
+                        <div class="goal-img">
+                            <img src="./images/latin2.jpg" class="fuwafuwa2" alt="中南米の画像2です。">
+                            <img src="./images/latin3.jpg" class="fuwafuwa3" alt="中南米の画像3です。">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <div class="haikei4">
+        <div class="haikei4-box">
+            <h2>CONTACT</h2>
+            <div><a href="#" class="btn_03">Contact Me</a></div>
+        </div>
+    </div>
+
+
+    <footer id="end">
+        <h2>夢を叶えるために・生きるために・頑張ります！</h2>
+        <div class="contact">
+            <img src="./images/coffee.jpg" alt="SNSアイコンです。">
+            <!-- <a href="" class="btn btn-sns btn-sns--twitter">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a> -->
+            <p>#だいすぅうけ</p>
+        </div>
+        <!-- <h1>自由に生きて・働いて・旅をして！！</h1> -->
+        <div class="footer-txt"><span>自</span>
+            <h1 class="live">生きて</h1>
+        </div>
+        <div class="footer-txt"><span>由</span>
+            <h1 class="work">働いて</h1>
+        </div>
+        <div class="footer-txt third"><span>に</span>
+            <h1 class="trip">旅をして!!</h1>
+        </div>
+        <!--TOPへ戻る為のボタン-->
+        <a class="pagetop" href="#top">
+            <div class="pagetop__arrow"></div>
+        </a>
+    </footer>
+
+</body>
+
+</html>
