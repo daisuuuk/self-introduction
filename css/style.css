@@ -544,6 +544,7 @@ holiday
 --------------------------*/
 #holiday {
     text-align: center;
+    height: 430vh;
 }
 
 #holiday .container {
@@ -560,9 +561,10 @@ holiday
 .holiday-left {
     display: flex;
     justify-content: start;
+    height: 90vh;
 }
 
-.holiday-left .p-left{
+.holiday-left .p-left {
     text-align: left;
 }
 
@@ -571,9 +573,10 @@ holiday
     justify-content: end;
     flex-direction: row-reverse;
     margin-bottom: 4rem;
+    height: 90vh;
 }
 
-.holiday-right .p-right{
+.holiday-right .p-right {
     text-align: right;
 }
 
@@ -629,7 +632,8 @@ goal
 
     background-color: #EAF4FC;
     width: 90%;
-    height: 2200px;   /* auto */
+    height: 2200px;
+    /* auto */
     border-radius: 100px;
     margin: 0 auto;
 }
@@ -815,15 +819,15 @@ footer h1 {
     display: inline-block;
 }
 
-.live{
-    color: 	#FEC18A;
+.live {
+    color: #FEC18A;
 }
 
-.work{
+.work {
     color: #FEA04B;
 }
 
-.trip{
+.trip {
     color: #FE7F0B;
 }
 
@@ -911,21 +915,21 @@ footer .contact p {
     }
 
     /* なぜかspanでくくると文字の上下の色が変更できる為 */
-    .sp-live{
-        background: linear-gradient(#B85A06  30%, #FE7F0B 70%);
+    .sp-live {
+        background: linear-gradient(#B85A06 30%, #FE7F0B 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         white-space: nowrap;
     }
-    
-    .sp-work{
-        background: linear-gradient(#B85A06  30%, #FE7F0B 70%);
+
+    .sp-work {
+        background: linear-gradient(#B85A06 30%, #FE7F0B 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         white-space: nowrap;
     }
-    
-    .sp-trip{
+
+    .sp-trip {
         background: linear-gradient(#B85A06 30%, #FE7F0B 70%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -1040,7 +1044,7 @@ hobby
 haikei2
 --------------------------*/
     .haikei2 {
-        height:5vh;
+        height: 5vh;
         padding-top: 0;
     }
 
@@ -1097,8 +1101,12 @@ haikei2
     /*--------------------------
 holiday
 --------------------------*/
+    #holiday {
+        height: 390vh;
+    }
+
     #holiday .container {
-        height: 368vh;
+        height: 390vh;
     }
 
     .holiday-sp {
@@ -1116,10 +1124,12 @@ holiday
 
     .holiday-left {
         flex-direction: column-reverse;
+        height: 90vh;
     }
 
     .sp-right {
         width: 100%;
+        height: 80vh;
         text-align: right;
     }
 
@@ -1127,6 +1137,7 @@ holiday
         display: inline-flex;
         flex-direction: column-reverse;
         width: 100%;
+        height: 85vh;
     }
 
     #holiday .img-left {
@@ -1222,7 +1233,7 @@ goal
         height: 22vh;
     }
 
-    #goal .japan .countly-cont h3{
+    #goal .japan .countly-cont h3 {
         padding: 0;
     }
 
