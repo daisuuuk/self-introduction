@@ -465,7 +465,7 @@ haikei3
 --------------------------*/
 .haikei3 {
     position: relative;
-    height: 90vh;
+    height: 100vh;
 }
 
 .haikei3 .img3 {
@@ -1098,7 +1098,7 @@ haikei2
 holiday
 --------------------------*/
     #holiday .container {
-        height: 373vh;
+        height: 368vh;
     }
 
     .holiday-sp {
@@ -1147,7 +1147,7 @@ holiday
 
     #holiday img:hover {
         width: 375px;
-        height: 50vh;
+        height: 45vh;
         transition: .5s;
     }
 
