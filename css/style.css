@@ -14,6 +14,22 @@ body {
 
 /*-----   1rem=16px   -----*/
 
+/* 補足 */
+
+/* 固定幅の排除　width: 1300px のような固定値は画面からはみ出す原因 */
+/* .container { width: min(1100px, 95%); } */
+
+/* vh固定の高さを排除　height: 430vh のような固定はコンテンツが溢れる原因 */
+/* #holiday { min-height: auto; } */
+
+/* 画像を比率管理に変更 */
+/* img { width: min(600px, 45%); height: auto; aspect-ratio: 4/5; object-fit: cover; } */
+
+/* clamp() でフォントサイズを可変に */
+/* font-size: clamp(最小値, 理想値, 最大値); */
+/* 例: スマホでは1.5rem、大画面では4rem */
+/* font-size: clamp(1.5rem, 4vw, 4rem); */
+
 
 /*--------------------------
 ヘッダー
